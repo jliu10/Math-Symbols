@@ -16,6 +16,6 @@
         "browser_style": true,
 
         "default_title": "Math Symbols",
-        "default_popup": "popup.html",
+        "default_popup": "popup.html"
     }
 }
