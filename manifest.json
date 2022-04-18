@@ -3,5 +3,19 @@
     "name": "Math Symbols",
     "version": "1.0",
 
-    "description": "Insert commonly used math symbols into your text!"
+    "description": "Insert commonly used math symbols into your text!",
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["Math-Symbols.js"]
+        }
+    ],
+
+    "browser_action": {
+        "browser_style": true,
+
+        "default_title": "Math Symbols",
+        "default_popup": "popup.html",
+    }
 }
